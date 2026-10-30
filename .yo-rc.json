@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.23.1",
+    "sdksVersions": {},
+    "version": "1.23.2",
+    "libraryName": "styled-text",
+    "libraryId": "96521a48-bd9f-43e8-8a1e-8b53695285b3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "styled-text",
+    "solutionShortDescription": "styled-text description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

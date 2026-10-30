@@ -1,0 +1,58 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "55bc190a-9633-4822-9a53-652c06f36159",
+  "alias": "StyledTextWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "cf066440-0614-43d6-98ae-0b31cf14c7c3",
+      "group": {
+        "default": "Text, media, and content"
+      },
+      "title": {
+        "default": "Styled Text"
+      },
+      "description": {
+        "default": "Displays text with custom typography, colour and optional gradient styling."
+      },
+      "officeFabricIconFontName": "FontStyleSerif",
+      "properties": {
+  "text": "Styled text",
+  "fontFamilyChoice": "\"Segoe UI\", Arial, sans-serif",
+  "customFontFamily": "\"Segoe UI\", Arial, sans-serif",
+  "fontSize": 48,
+  "fontWeight": 700,
+  "fontColour": "#323130",
+  "letterSpacing": 0,
+  "lineHeight": 1.2,
+  "textAlignment": "left",
+  "textTransform": "none",
+  "widthMode": "percentage",
+  "textWidth": 100,
+  "textBlockPosition": "left",
+  "useGradient": false,
+  "gradientStartColour": "#0078d4",
+  "useGradientMiddleColour": false,
+"gradientMiddleColour": "#6b4eff",
+  "gradientEndColour": "#6b2fa0",
+  "gradientAngle": 90,
+  "useBackground": false,
+  "backgroundColour": "#FFFFFF",
+  "backgroundOpacity": 100,
+  "backgroundPaddingHorizontal": 8,
+  "backgroundPaddingVertical": 4,
+  "backgroundBorderRadius": 8,
+  "marginTop": 0,
+  "marginBottom": 16
+
+      }
+    }
+  ]
+}
